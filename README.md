@@ -36,4 +36,9 @@ When the simulator starts, it first reads in the firewall rules via the config f
 <action>(<rule number>) <direction> <ip> <port> <flag>
 ```
 
-*Written for W2017 CPSC 526: Network Security*
+### Command & Example Output:
+
+![Personal Firewall Example Output](/../screenshots/pfw_example_output.png?raw=true "Personal Firewall Example Output")
+
+
+*Originally written for W2017 CPSC 526: Network Security*
