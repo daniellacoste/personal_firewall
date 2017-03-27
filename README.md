@@ -1,5 +1,5 @@
 # :fire: personal_firewall :fire:
-A program that emulates a personal firewall (specific to IPv4 packets), written in Python.
+A program that emulates a [personal firewall](https://en.wikipedia.org/wiki/Personal_firewall) (specific to IPv4 packets), written in Python.
 
 __Pre-reqs__: Python3
 
