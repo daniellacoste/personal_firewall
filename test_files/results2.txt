@@ -1,0 +1,4 @@
+accept(3) in 136.159.15.22 80 0
+drop() in 136.159.15.22 22 0
+accept(3) in 136.159.5.12 8080 0
+Error - Packet address/netmask is invalid for IPv4: 936.259.5.12
