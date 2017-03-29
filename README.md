@@ -16,7 +16,7 @@ When the simulator starts, it first reads in the firewall rules via the config f
 * __direction__: the direction of the traffic, 'in' or 'out'
 * __action__: what to do with the packet, 'accept', 'drop', and 'deny'
 * __ip__: defines the IP range, specified by an IP range using CIDR notation, or a wildcard '*'
-* __port__: a destination port which is an integer b/w 0-65535, comma delimited, wildcard '*' available
+* __port__: a destination port which is an integer between 0-65535, comma delimited, wildcard '*' available
 * __flag__: (optional) "established" flag which describes whether the rule will be applied only to packets that are part of an established connection or to all packets (if the field is not present, the rule applies to all packets)
 
 ### Packet file format:
@@ -27,7 +27,7 @@ When the simulator starts, it first reads in the firewall rules via the config f
 
 * __direction__: direction of the packet - either 'in' or 'out'
 * __ip__: for incoming packets this is the source IP address, for outgoing packets this is the destination IP address
-* __port__: integer b/w 0-65535
+* __port__: integer between 0-65535
 * __flag__: boolean 0 (new session) or 1 (established session)
 
 ### Output:
