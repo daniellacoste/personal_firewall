@@ -38,6 +38,8 @@ When the simulator starts, it first reads in the firewall rules via the config f
 
 ### Command & Example Output:
 
+The following output is comparing the program output with a solution file (found in ```test_files```: ```results1.txt```, ```results2.txt```, and ```results3.txt```). Note that the program will output an error and exit if it reads a packet that does not contain a [valid IPv4 address](https://technet.microsoft.com/en-us/library/dd379547(v=ws.10).aspx).
+
 ![Personal Firewall Example Output](/../screenshots/pfw_example_output.png?raw=true "Personal Firewall Example Output")
 
 
